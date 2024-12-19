@@ -12,8 +12,6 @@ function combineNames(firstName, lastName){
     return fullName;
 }
 
-console.log(combineNames(firstName, lastName));
-
 let fullName = combineNames(firstName, lastName)
 
 for(let i=0; i<fullName.length; i++){
